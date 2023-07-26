@@ -8,7 +8,6 @@ En la carpeta "doc" se encuentra toda la documentación relacionada con este pro
 
 ## Los Usuarios
 - [Introducción](./doc/usuarios/introduccion.md)
-- [Descripción](./doc/usuarios/descripcion.md)
 - [Tipos de usuario](./doc/usuarios/tipos_de_usuario.md)
     - [Administrador](./doc/usuarios/administrador.md)
     - [Usuario Estándar](./doc/usuarios/usuario_estandar.md)
