@@ -1,6 +1,6 @@
 ## Introducción
 
-**Let’s rol** es una completa plataforma web de gestión de rol que te permitirá llevar el control y la jugabilidad de todas tus emocionantes partidas de rol. Desde el desarrollo y seguimiento de tus personajes y estadísticas, hasta la creación de objetos y el diseño de elaboradas tramas argumentales, esta herramienta te ayudará a organizar y enriquecer tus aventuras de rol de manera eficiente y creativa.
+**Let's rol** es una completa plataforma web de gestión de rol que te permitirá llevar el control y la jugabilidad de todas tus emocionantes partidas de rol. Desde el desarrollo y seguimiento de tus personajes y estadísticas, hasta la creación de objetos y el diseño de elaboradas tramas argumentales, esta herramienta te ayudará a organizar y enriquecer tus aventuras de rol de manera eficiente y creativa.
 
 ### ¿Qué te ofrece Let's rol?
 
@@ -16,7 +16,7 @@
 
 ### La Tienda de Let's rol
 
-Además de su funcionalidad de gestión de partidas, Let's rol también cuenta con una sección de tienda donde los usuarios pueden acceder a una amplia selección de artículos y merchandising relacionados con el mundo del rol. Esta tienda incluye:
+Además de su funcionalidad de gestión de partidas, Let's rol cuenta con una sección de tienda donde los usuarios pueden acceder a una amplia selección de artículos y merchandising relacionados con el mundo del rol. Esta tienda incluye:
 
 - **Libros y Guías**: Manuales de juegos de rol, guías para directores de juego y recursos para enriquecer tus partidas.
 
