@@ -9,10 +9,10 @@ La documentación de este proyecto está organizada de forma modular para facili
 - [La Tienda de Let's rol](./Introducción/introduccion.md#la-tienda-de-lets-rol)
 - [Enfoque Inicial en Kingdom Hearts y Futuras Expansiones](./Introducción/introduccion.md#enfoque-inicial-en-kingdom-hearts-y-futuras-expansiones)
 ---
-### [Los Usuarios](./Usuarios/Tipos de Usuario.md)
-- [Administrador](./Usuarios/Tipos de Usuario.md#administrador)
-- [Usuario Estándar](./Usuarios/Tipos de Usuario.md#usuario-estándar)
-- [Navegante](./Usuarios/Tipos de Usuario.md#navegante)
+### [Los Usuarios](./Usuarios/Tipos%20de%20Usuario.md)
+- [Administrador](./Usuarios/Tipos%20de%20Usuario.md#administrador)
+- [Usuario Estándar](./Usuarios/Tipos%20de%20Usuario.md#usuario-estándar)
+- [Navegante](./Usuarios/Tipos%20de%20Usuario.md#navegante)
 - [Medidas de seguridad](./Usuarios/Medidas%20de%20seguridad.md)
 ---
 ### [Modelo de Datos](./Modelo de Datos/Modelo de datos.md)
