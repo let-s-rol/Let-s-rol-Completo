@@ -9,18 +9,17 @@ La documentación de este proyecto está organizada de forma modular para facili
 - [La Tienda de Let's rol](./Introducción/introduccion.md#la-tienda-de-lets-rol)
 - [Enfoque Inicial en Kingdom Hearts y Futuras Expansiones](./Introducción/introduccion.md#enfoque-inicial-en-kingdom-hearts-y-futuras-expansiones)
 ---
-### Los Usuarios
-- [Tipos de usuario](./Usuarios/Tipos de Usuario.md)
-    - [Administrador](./Usuarios/Tipos de Usuario.md#administrador)
-    - [Usuario Estándar](./Usuarios/Tipos de Usuario.md#usuario-estándar)
-    - [Navegante](./Usuarios/Tipos de Usuario.md#navegante)
+### [Los Usuarios](./Usuarios/Tipos de Usuario.md)
+- [Administrador](./Usuarios/Tipos de Usuario.md#administrador)
+- [Usuario Estándar](./Usuarios/Tipos de Usuario.md#usuario-estándar)
+- [Navegante](./Usuarios/Tipos de Usuario.md#navegante)
 - [Medidas de seguridad](./Usuarios/Medidas%20de%20seguridad.md)
 ---
-### Modelo de Datos
-- [Introducción](./modelo_de_datos/introduccion.md)
-- [Diagrama Entidad Relación](./modelo_de_datos/diagrama_entidad_relacion.md)
-- [Modelo Relacional](./modelo_de_datos/modelo_relacional.md)
-- [Información Completa](./modelo_de_datos/informacion_completa.md)
+### [Modelo de Datos](./Modelo de Datos/Modelo de datos.md)
+- [Tablas](./Modelo de Datos/Modelo de datos.md#tablas)
+- [Relaciones](./Modelo de Datos/Modelo de datos.md#relaciones)
+- [Descripción](./Modelo de Datos/Modelo de datos.md#descripción)
+- [Tabla de Valores por Defecto](./Modelo de Datos/Modelo de datos.md#tabla-de-valores-por-defecto)
 ---
 ### Funcionalidades de la Web
 - [Introducción](./funcionalidad_de_la_web/introduccion.md)
