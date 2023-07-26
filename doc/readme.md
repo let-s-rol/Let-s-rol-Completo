@@ -4,18 +4,17 @@ Mis disculpas por la confusión. Entendido, ajustaré las rutas para reflejar qu
 
 La documentación de este proyecto está organizada de forma modular para facilitar la navegación y la colaboración en diferentes partes del proyecto. A continuación se presenta una descripción general de la estructura y los contenidos de cada carpeta:
 
-### [Introducción](https://github.com/let-s-rol/Let-s-rol-Completo/blob/main/doc/usuarios/introduccion.md)
-- [¿Qué te ofrece Let's rol?](./usuarios/introduccion.md#qué-te-ofrece-lets-rol)
-- [La Tienda de Let's rol](./usuarios/introduccion.md#la-tienda-de-lets-rol)
-- [Enfoque Inicial en Kingdom Hearts y Futuras Expansiones](./usuarios/introduccion.md#enfoque-inicial-en-kingdom-hearts-y-futuras-expansiones)
+### [Introducción](./Introducción/introduccion.md)
+- [¿Qué te ofrece Let's rol?](./Introducción/introduccion.md#qué-te-ofrece-lets-rol)
+- [La Tienda de Let's rol](./Introducción/introduccion.md#la-tienda-de-lets-rol)
+- [Enfoque Inicial en Kingdom Hearts y Futuras Expansiones](./Introducción/introduccion.md#enfoque-inicial-en-kingdom-hearts-y-futuras-expansiones)
 ---
 ### Los Usuarios
-- [Introducción](./usuarios/introduccion.md)
-- [Descripción](./usuarios/descripcion.md)
-- [Tipos de usuario](./usuarios/tipos_de_usuario.md)
-    - [Administrador](./usuarios/administrador.md)
-    - [Usuario Estándar](./usuarios/usuario_estandar.md)
-    - [Navegante](./usuarios/navegante.md)
+- [Tipos de usuario](./Usuarios/Tipos de Usuario.md)
+    - [Administrador](./Usuarios/Tipos de Usuario.md#administrador)
+    - [Usuario Estándar](./Usuarios/Tipos de Usuario.md#usuario-estándar)
+    - [Navegante](./Usuarios/Tipos de Usuario.md#navegante)
+- [Medidas de seguridad](./Usuarios/Medidas%20de%20seguridad.md)
 ---
 ### Modelo de Datos
 - [Introducción](./modelo_de_datos/introduccion.md)
