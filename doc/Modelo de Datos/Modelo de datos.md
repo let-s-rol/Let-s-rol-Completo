@@ -60,28 +60,28 @@
 
 Tabla: Usuarios
 
-| user_id (PK) | username  | email                | password_hash      | gender    | profile_picture | is_admin | registration_date |
-| ------------ | --------- | -------------------- | ------------------ | --------- | --------------- | -------- | ----------------- |
-| 1            | user1     | user1@example.com   | [hashed_password]  | Masculino | [image_url]      | false    | 2023-06-01        |
-| 2            | user2     | user2@example.com   | [hashed_password]  | Femenino  | [image_url]      | false    | 2023-06-10        |
-| 3            | user3     | user3@example.com   | [hashed_password]  | Masculino | [image_url]      | false    | 2023-06-15        |
-| 4            | user4     | user4@example.com   | [hashed_password]  | Femenino  | [image_url]      | false    | 2023-06-20        |
-| 5            | user5     | user5@example.com   | [hashed_password]  | Masculino | [image_url]      | false    | 2023-06-25        |
+| user_id (PK) | username | email             | password_hash     | gender    | profile_picture | is_admin | registration_date |
+|--------------|----------|-------------------|-------------------|-----------|-----------------|----------|-------------------|
+| 1            | user1    | user1@example.com | [hashed_password] | Masculino | [image_url]     | false    | 2023-06-01        |
+| 2            | user2    | user2@example.com | [hashed_password] | Femenino  | [image_url]     | false    | 2023-06-10        |
+| 3            | user3    | user3@example.com | [hashed_password] | Masculino | [image_url]     | false    | 2023-06-15        |
+| 4            | user4    | user4@example.com | [hashed_password] | Femenino  | [image_url]     | false    | 2023-06-20        |
+| 5            | user5    | user5@example.com | [hashed_password] | Masculino | [image_url]     | false    | 2023-06-25        |
 
 Tabla: Productos
 
-| product_id (PK) | name               | description                            | price  |stock_quantity | image_url        |
-| --------------- | ------------------ | -------------------------------------- | ------| -------------- | ----------------- |
-| 1               | Producto 1         | Descripción del producto 1             | 19.99  | 50             | [image_url]      |
-| 2               | Producto 2         | Descripción del producto 2             | 29.99  | 25             | [image_url]      |
-| 3               | Producto 3         | Descripción del producto 3             | 9.99   | 100            | [image_url]      |
-| 4               | Producto 4         | Descripción del producto 4             | 14.99  | 75             | [image_url]      |
-| 5               | Producto 5         | Descripción del producto 5             | 39.99  | 10             | [image_url]      |
+| product_id (PK) | name       | description                | price | stock_quantity | image_url   |
+|-----------------|------------|----------------------------|-------|----------------|-------------|
+| 1               | Producto 1 | Descripción del producto 1 | 19.99 | 50             | [image_url] |
+| 2               | Producto 2 | Descripción del producto 2 | 29.99 | 25             | [image_url] |
+| 3               | Producto 3 | Descripción del producto 3 | 9.99  | 100            | [image_url] |
+| 4               | Producto 4 | Descripción del producto 4 | 14.99 | 75             | [image_url] |
+| 5               | Producto 5 | Descripción del producto 5 | 39.99 | 10             | [image_url] |
 
 Tabla: Compras
 
 | purchase_id (PK) | user_id (FK - Usuarios) | purchase_date | total_amount |
-| ---------------- | ----------------------- | ------------- | ------------ |
+|------------------|-------------------------|---------------|--------------|
 | 1                | 1                       | 2023-07-15    | 25.99        |
 | 2                | 2                       | 2023-07-20    | 37.50        |
 | 3                | 3                       | 2023-07-22    | 15.75        |
@@ -91,7 +91,7 @@ Tabla: Compras
 Tabla: Detalles de Compras
 
 | detail_id (PK) | purchase_id (FK - Compras) | product_id (FK - Productos) | quantity | subtotal |
-| -------------- | -------------------------- | --------------------------- | -------- | -------- |
+|----------------|----------------------------|-----------------------------|----------|----------|
 | 1              | 1                          | 1                           | 2        | 39.98    |
 | 2              | 2                          | 2                           | 1        | 29.99    |
 | 3              | 3                          | 3                           | 3        | 29.97    |
@@ -100,18 +100,18 @@ Tabla: Detalles de Compras
 
 Tabla: Personajes Base
 
-| id_base_character (PK) | id_user (FK - Usuarios) | name         | race   | description                                                | base_character_img |
-| ---------------------- | ----------------------- | ------------ | ------ | ---------------------------------------------------------- | ------------------ |
-| 1                      | 1                       | Personaje 1  | Humano | Un valiente guerrero que lucha por la justicia.           | [image_url]        |
-| 2                      | 2                       | Personaje 2  | Elfo   | Un hábil arquero que vive en los bosques misteriosos.      | [image_url]        |
-| 3                      | 3                       | Personaje 3  | Enano  | Un poderoso guerrero con una barba imponente.              | [image_url]        |
-| 4                      | 4                       | Personaje 4  | Humano | Una hechicera misteriosa con poderes arcanos.              | [image_url]        |
-| 5                      | 5                       | Personaje 5  | Elfo   | Un sabio druida que protege la naturaleza y sus criaturas. | [image_url]        |
+| id_base_character (PK) | id_user (FK - Usuarios) | name        | race   | description                                                | base_character_img |
+|------------------------|-------------------------|-------------|--------|------------------------------------------------------------|--------------------|
+| 1                      | 1                       | Personaje 1 | Humano | Un valiente guerrero que lucha por la justicia.            | [image_url]        |
+| 2                      | 2                       | Personaje 2 | Elfo   | Un hábil arquero que vive en los bosques misteriosos.      | [image_url]        |
+| 3                      | 3                       | Personaje 3 | Enano  | Un poderoso guerrero con una barba imponente.              | [image_url]        |
+| 4                      | 4                       | Personaje 4 | Humano | Una hechicera misteriosa con poderes arcanos.              | [image_url]        |
+| 5                      | 5                       | Personaje 5 | Elfo   | Un sabio druida que protege la naturaleza y sus criaturas. | [image_url]        |
 
 Tabla: Juegos
 
-| id_juego (PK) | nombre          | descripcion                                                                           |
-| ------------- | --------------- | ------------------------------------------------------------------------------------- |
-| 1             | Kingdom Hearts  | Juego de rol basado en un famoso videojuego de acción y aventura.                      |
-| 2             | D&D             | Dungeons & Dragons es un juego de rol clásico que permite a los jugadores sumergirse en mundos de fantasía y aventura. |
-| 3             | Modular         | Juego de rol modular que permite a los Masters crear sus propias configuraciones y compartir sus roles con otros jugadores. |
+| id_juego (PK) | nombre         | descripcion                                                                                                                 |
+|---------------|----------------|-----------------------------------------------------------------------------------------------------------------------------|
+| 1             | Kingdom Hearts | Juego de rol basado en un famoso videojuego de acción y aventura.                                                           |
+| 2             | D&D            | Dungeons & Dragons es un juego de rol clásico que permite a los jugadores sumergirse en mundos de fantasía y aventura.      |
+| 3             | Modular        | Juego de rol modular que permite a los Masters crear sus propias configuraciones y compartir sus roles con otros jugadores. |
