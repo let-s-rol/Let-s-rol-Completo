@@ -15,11 +15,11 @@ La documentación de este proyecto está organizada de forma modular para facili
 - [Navegante](./Usuarios/Tipos%20de%20Usuario.md#navegante)
 - [Medidas de seguridad](./Usuarios/Medidas%20de%20seguridad.md)
 ---
-### [Modelo de Datos](./Modelo%20de%20Datos/Modelo%20de%20Datos.md)
-- [Tablas](./Modelo%20de%20Datos/Modelo%20de%20Datos.md#tablas)
-- [Relaciones](./Modelo%20de%20Datos/Modelo%20de%20Datos.md#relaciones)
-- [Descripción](./Modelo%20de%20Datos/Modelo%20de%20Datos.md#descripción)
-- [Tabla de Valores por Defecto](./Modelo%20de%20Datos/Modelo%20de%20Datos.md#tabla-de-valores-por-defecto)
+### [Modelo de Datos](./Modelo)
+- [Tablas](./ModeloDeDatos/ModeloDeDatos.md#tablas)
+- [Relaciones](./ModeloDeDatos/ModeloDeDatos.md#relaciones)
+- [Descripción](./ModeloDeDatos/ModeloDeDatos.md#descripción)
+- [Tabla de Valores por Defecto](./ModeloDeDatos/ModeloDeDatos.md#tabla-de-valores-por-defecto)
 ---
 ### Funcionalidades de la Web
 - [Introducción](./funcionalidad_de_la_web/introduccion.md)
