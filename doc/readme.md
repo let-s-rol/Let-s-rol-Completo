@@ -1,5 +1,3 @@
-Mis disculpas por la confusión. Entendido, ajustaré las rutas para reflejar que el índice se encuentra en la carpeta principal del proyecto. Aquí tienes el índice actualizado:
-
 ## Índice Modular de Documentación
 
 La documentación de este proyecto está organizada de forma modular para facilitar la navegación y la colaboración en diferentes partes del proyecto. A continuación se presenta una descripción general de la estructura y los contenidos de cada carpeta:
