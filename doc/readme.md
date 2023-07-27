@@ -9,17 +9,17 @@ La documentación de este proyecto está organizada de forma modular para facili
 - [La Tienda de Let's rol](./Introducción/introduccion.md#la-tienda-de-lets-rol)
 - [Enfoque Inicial en Kingdom Hearts y Futuras Expansiones](./Introducción/introduccion.md#enfoque-inicial-en-kingdom-hearts-y-futuras-expansiones)
 ---
-### [Los Usuarios](./Usuarios/Tipos%20de%20Usuario.md)
-- [Administrador](./Usuarios/Tipos%20de%20Usuario.md#administrador)
-- [Usuario Estándar](./Usuarios/Tipos%20de%20Usuario.md#usuario-estándar)
-- [Navegante](./Usuarios/Tipos%20de%20Usuario.md#navegante)
-- [Medidas de seguridad](./Usuarios/Medidas%20de%20seguridad.md)
+### [Los Usuarios](./Usuarios/Tipos_de_usuario.md)
+- [Administrador](./Usuarios/Tipos_de_usuario.md#administrador)
+- [Usuario Estándar](./Usuarios/Tipos_de_usuario.md#usuario-estándar)
+- [Navegante](./Usuarios/Tipos_de_usuario.md#navegante)
+- [Medidas de seguridad](./Usuarios/Medidas_de_seguridad.md)
 ---
-### [Modelo de Datos](./ModeloDeDatos)
-- [Tablas](./ModeloDeDatos/ModeloDeDatos.md#tablas)
-- [Relaciones](./ModeloDeDatos/ModeloDeDatos.md#relaciones)
-- [Descripción](./ModeloDeDatos/ModeloDeDatos.md#descripción)
-- [Tabla de Valores por Defecto](./ModeloDeDatos/ModeloDeDatos.md#tabla-de-valores-por-defecto)
+### [Modelo de Datos](Modelo_de_datos/Modelo_de_datos.md)
+- [Tablas](Modelo_de_datos/Modelo_de_datos.md#tablas)
+- [Relaciones](Modelo_de_datos/Modelo_de_datos.md#relaciones)
+- [Descripción](Modelo_de_datos/Modelo_de_datos.md#descripción)
+- [Tabla de Valores por Defecto](Modelo_de_datos/Modelo_de_datos.md#tabla-de-valores-por-defecto)
 ---
 ### Funcionalidades de la Web
 - [Introducción](./funcionalidad_de_la_web/introduccion.md)
