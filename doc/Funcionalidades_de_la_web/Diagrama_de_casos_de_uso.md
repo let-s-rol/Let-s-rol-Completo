@@ -13,3 +13,6 @@
 | Modificar Productos de Tienda         | Agregar, eliminar o modificar productos en la tienda          | ✘         | ✘                | ✔             |
 | Habilitar/Deshabilitar Modos de Juego | Habilitar o deshabilitar modos de juego disponibles en la web | ✘         | ✘                | ✔             |
 
+
+
+
