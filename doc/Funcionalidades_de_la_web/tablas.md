@@ -1,4 +1,4 @@
-<a name="_heading=h.lnxbz9"></a>Registrarse
+## Registrarse
 
 <table>
   <tr>
@@ -83,7 +83,7 @@
   </tr>
 </table>
 
-<a name="_heading=h.lnxbz9"></a>Iniciar Sesión
+## Iniciar Sesión
 
 <table>
   <tr>
@@ -139,7 +139,7 @@
   </tr>
 </table>
 
-<a name="_heading=h.lnxbz9"></a>Ver Juegos Disponibles
+## Ver Juegos Disponibles
 
 <table>
   <tr>
@@ -177,7 +177,7 @@
   </tr>
 </table>
 
-<a name="_heading=h.lnxbz9"></a>Crear Personaje Base
+## Crear Personaje Base
 
 <table>
   <tr>
@@ -236,7 +236,7 @@
   </tr>
 </table>
 
-<a name="_heading=h.lnxbz9"></a>Crear Partida
+## Crear Partida
 
 <table>
   <tr>
@@ -295,7 +295,7 @@
   </tr>
 </table>
 
-<a name="_heading=h.lnxbz9"></a>Buscar Partida
+## Buscar Partida
 
 <table>
   <tr>
@@ -354,7 +354,7 @@
   </tr>
 </table>
 
-<a name="_heading=h.lnxbz9"></a>Continuar Partida
+## Continuar Partida
 
 <table>
   <tr>
@@ -409,7 +409,7 @@
   </tr>
 </table>
 
-<a name="_heading=h.lnxbz9"></a>Comprar en Tienda
+## Comprar en Tienda
 
 <table>
   <tr>
@@ -469,7 +469,7 @@
 </table>
 
 
-<a name="_heading=h.lnxbz9"></a>Leer Foro
+## Leer Foro
 
 <table>
   <tr>
@@ -511,7 +511,7 @@
   </tr>
 </table>
 
-<a name="_heading=h.lnxbz9"></a>Escribir en el Foro
+## Escribir en el Foro
 
 <table>
   <tr>
@@ -563,7 +563,7 @@
   </tr>
 </table>
 
-<a name="_heading=h.lnxbz9"></a>Modificar Productos de Tienda
+## Modificar Productos de Tienda
 
 <table>
   <tr>
@@ -627,7 +627,7 @@
   </tr>
 </table>
 
-<a name="_heading=h.lnxbz9"></a>Habilitar/Deshabilitar Modos de Juego
+## Habilitar/Deshabilitar Modos de Juego
 
 <table>
   <tr>
