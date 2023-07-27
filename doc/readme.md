@@ -15,7 +15,7 @@ La documentación de este proyecto está organizada de forma modular para facili
 - [Navegante](./Usuarios/Tipos%20de%20Usuario.md#navegante)
 - [Medidas de seguridad](./Usuarios/Medidas%20de%20seguridad.md)
 ---
-### [Modelo de Datos](./Modelo)
+### [Modelo de Datos](./ModeloDeDatos)
 - [Tablas](./ModeloDeDatos/ModeloDeDatos.md#tablas)
 - [Relaciones](./ModeloDeDatos/ModeloDeDatos.md#relaciones)
 - [Descripción](./ModeloDeDatos/ModeloDeDatos.md#descripción)
