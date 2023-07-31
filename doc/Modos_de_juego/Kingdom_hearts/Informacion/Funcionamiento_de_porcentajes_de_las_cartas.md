@@ -196,7 +196,7 @@ echo json_encode($paqueteCartas);
 ```
 Cuando ejecutamos esto, veriamo algo asi
 
-```
+```json
 {
   "paquete": [
     {
