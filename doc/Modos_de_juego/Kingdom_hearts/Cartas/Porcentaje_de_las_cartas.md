@@ -1,5 +1,3 @@
-Claro, aquí tienes la tabla de resultados de la función con el JSON proporcionado:
-
 | Carta             | Nivel 1 | Nivel 2 | Nivel 3 | Nivel 4 | Nivel 5 | Nivel 6 | Nivel 7 | Nivel 8 | Nivel 9 | Nivel 0 |
 |-------------------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
 | Cadena del reino  | 42.86%  | 38.89%  | 35.48%  | 32.61%  | 30.23%  | 28.24%  | 26.57%  | 25.18%  | 24.04%  | 23.12%  |

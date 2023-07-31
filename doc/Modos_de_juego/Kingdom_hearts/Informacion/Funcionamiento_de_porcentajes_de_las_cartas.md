@@ -1,8 +1,8 @@
-**Funcionamiento de porcentajes de las cartas**
+## Funcionamiento de porcentajes de las cartas
 
 Las cartas en un juego suelen tener diferentes valores numéricos que representan su poder o rareza. Calcular y visualizar los porcentajes de aparición para cada nivel de carta puede ser útil para comprender mejor la distribución de estas cartas y tomar decisiones estratégicas en el juego. A continuación, se presenta una solución para calcular los porcentajes de aparición y representarlos en forma de tabla.
 
-**1. Cálculo de porcentajes con TypeScript (Frontend) y PHP con Laravel (Backend):**
+### 1. Cálculo de porcentajes con TypeScript (Frontend) y PHP con Laravel (Backend):
 
 Hemos implementado dos soluciones, una en TypeScript para el frontend y otra en PHP utilizando Laravel para el backend. Ambas opciones son válidas y ofrecen ventajas distintas según el contexto de uso.
 
@@ -16,7 +16,7 @@ Hemos implementado dos soluciones, una en TypeScript para el frontend y otra en 
 - El cálculo de porcentajes en el backend permite ocultar la lógica y los datos del cliente, lo que mejora la seguridad y evita el acceso no autorizado a la información.
 - Es adecuado para situaciones donde el cálculo de los porcentajes requiere datos más complejos o se desea almacenar los resultados en una base de datos.
 
-**2. Cálculo de porcentajes de las cartas en ambos lenguajes:**
+### 2. Cálculo de porcentajes de las cartas en ambos lenguajes:
 
 La función toma una lista de cartas que contiene su nombre y diferentes valores numéricos para distintos niveles. A partir de esta información, se realiza el cálculo de los porcentajes de aparición de cada nivel de carta según el valor numérico que poseen.
 
@@ -87,7 +87,7 @@ $result = calculatePercentage($cardList);
 print_r($result);
 ```
 
-**3. Tabla de resultados con Markdown:**
+## 3. Tabla de resultados con Markdown:
 
 A continuación, se muestra la tabla de resultados obtenidos al aplicar la función a una lista de cartas:
 
@@ -120,7 +120,7 @@ A continuación, se muestra la tabla de resultados obtenidos al aplicar la funci
 | Éter              | 19.05%  | 16.67%  | 14.52%  | 12.68%  | 11.11%  | 9.80%   | 8.70%   | 7.78%   | 6.94%   | 6.25%   |
 | Elixir            | 4.76%   | 3.70%   | 2.90%   | 2.17%   | 1.59%   | 1.15%   | 0.83%   | 0.61%   | 0.37%   | 0.17%   |
 
-**4. Conclusiones:**
+### 4. Conclusiones:
 
 El cálculo y visualización de porcentajes de apariciones de cartas son importantes para comprender mejor la distribución de los valores numéricos y tomar decisiones estratégicas en un juego. Tanto la implementación en TypeScript para el frontend como en PHP utilizando Laravel para el backend son opciones válidas, y la elección dependerá de las necesidades específicas del proyecto.
 
@@ -136,7 +136,7 @@ El cálculo y visualización de porcentajes de apariciones de cartas son importa
 
 Ambas opciones pueden utilizarse conjuntamente para obtener una solución completa en la que el frontend en TypeScript se comunique con el backend en PHP mediante API y servicios web, lo que permite una experiencia de usuario más fluida y segura.
 
-**5. Funcionamiento de la Tienda**
+### 5. Funcionamiento de la Tienda
 
 En la tienda lo que queremos es poder comprar un paquete de cartas, este paquete, genera 3 cartas aleatorias, sin tener la posibilidad de repetirse entre sí
 ```php
