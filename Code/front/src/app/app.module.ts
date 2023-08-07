@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './app/header/header.component';
-import { FooterComponent } from './app/footer/footer.component';
+import { HeaderComponent } from './estructure/header/header.component';
+import { FooterComponent } from './estructure/footer/footer.component';
 import { HomeComponent } from './app/home/home.component';
 import { AboutComponent } from './app/about/about.component';
 import { ContactComponent } from './app/contact/contact.component';
@@ -28,9 +28,11 @@ import { ForumComponent } from './app/forum/forum.component';
 import { ForumCategoryListComponent } from './app/forum/forum-category-list/forum-category-list.component';
 import { ForumTopicListComponent } from './app/forum/forum-topic-list/forum-topic-list.component';
 import { ForumTopicDetailComponent } from './app/forum/forum-topic-detail/forum-topic-detail.component';
-import { ChatComponent } from './app/chat/chat.component';
-import { ChatRoomComponent } from './app/chat/chat-room/chat-room.component';
+import { ChatComponent } from './estructure/chat/chat.component';
+import { ChatRoomComponent } from './estructure/chat/chat-room/chat-room.component';
 import { NotFoundComponent } from './app/not-found/not-found.component';
+import { EstructureComponent } from './estructure/estructure.component';
+import { NavbarComponent } from './estructure/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +64,9 @@ import { NotFoundComponent } from './app/not-found/not-found.component';
     ForumTopicDetailComponent,
     ChatComponent,
     ChatRoomComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    EstructureComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
