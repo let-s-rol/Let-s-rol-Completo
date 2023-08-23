@@ -1,10 +1,48 @@
+/* Estilos para el logo */
+.logo {
+  
+  height: 121px;
+  flex-shrink: 0;
+margin-top: 7px;
+  background: url(../../assets/logo-header.png) center/contain no-repeat; /* Cambiado para cargar la imagen y centrarla */
+
+  /* Centrar contenido del logo */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Resto de los estilos de tu layout */
 .layout {
-  /* layout */
   width: 95rem;
   height: 99vh;
   flex-shrink: 0;
-  /* style */
   border-radius: 2rem;
   background: #f2f8ff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  display: grid;
+  grid:
+    "logo buscador user" auto
+    "navbar info chat" 1fr
+    "navbar noticias chat" auto
+    "logout footer chat" auto
+    / auto 65% auto;
+  gap: 8px;
 }
+
+/* Agrega bordes a cada celda */
+.logo, .buscador, .user, .navbar, .info, .chat, .noticias, .logout, .footer {
+  border: 1px solid black;
+}
+
+/* Asigna las áreas del grid */
+.logo { grid-area: logo; }
+.buscador { grid-area: buscador; }
+.user { grid-area: user; }
+.navbar { grid-area: navbar; }
+.info { grid-area: info; }
+.chat { grid-area: chat; }
+.noticias { grid-area: noticias; }
+.logout { grid-area: logout; }
+.footer { grid-area: footer; }

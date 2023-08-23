@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './estructure/header/header.component';
 import { FooterComponent } from './estructure/footer/footer.component';
 import { HomeComponent } from './app/home/home.component';
 import { AboutComponent } from './app/about/about.component';
@@ -37,7 +36,6 @@ import { NavbarComponent } from './estructure/navbar/navbar.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
     FooterComponent,
     HomeComponent,
     AboutComponent,
