@@ -1,25 +1,34 @@
+/* Estilos para la navbar */
 .navbar {
+  width: 207px;
+  height: 304px;
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  position: absolute;
-  top: 100%; /* Posiciona debajo del header */
-  margin-top: 20px; /* Distancia desde la parte superior */
-  padding-top: 20px; /* Espacio adicional arriba */
-  margin-left: 40px;
-  margin-right: 40px;
+  justify-content: center; /* Centrar verticalmente */
+  align-items: center; /* Centrar horizontalmente */
+  /* Agregar otros estilos según sea necesario */
 }
 
-.nav-item {
+/* Estilos para los botones de la navbar */
+.nav-button {
   display: flex;
+  width: 207px;
+  height: 64px;
+  padding: 16px 51px 16px 24px;
   align-items: center;
-  color: #333;
-  text-decoration: none;
-  padding: 5px 0;
+  gap: 16px;
+  flex-shrink: 0;
+  background-color: transparent; /* Fondo transparente */
+  border: none; /* Sin borde */
+  color: #B8BED9; /* Cambia el color de texto según tu diseño */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+  /* Agregar otros estilos según sea necesario */
 }
 
-.nav-item img {
-  width: 20px; /* Ajusta el tamaño de las imágenes según sea necesario */
-  height: 20px;
-  margin-right: 10px;
+/* Espacio para icono */
+.icon {
+  width: 24px;
+  height: 24px;
+  /* Agregar otros estilos de icono según sea necesario */
 }

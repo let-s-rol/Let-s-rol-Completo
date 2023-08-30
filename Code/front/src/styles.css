@@ -1,9 +1,11 @@
 body {
-    background-color: #B5C5FD;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-  
+  font-family: "Raleway", sans-serif; /* Fuente global */
+  margin: 0;
+  padding: 0;
+  background-color: #b5c5fd;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

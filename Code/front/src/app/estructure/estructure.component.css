@@ -1,15 +1,30 @@
 /* Estilos para el logo */
 .logo {
-  
   height: 121px;
   flex-shrink: 0;
-margin-top: 7px;
-  background: url(../../assets/logo-header.png) center/contain no-repeat; /* Cambiado para cargar la imagen y centrarla */
-
-  /* Centrar contenido del logo */
+  margin-top: 7px;
+  background: url(../../assets/logo-header.png) center/contain no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* Ajusta el ancho del logo */
+  width: 272px; /* Agrega esta línea */
+}
+
+/* Agrega bordes a cada celda */
+.logo,
+.buscador,
+.user,
+.navbar,
+.info,
+.chat,
+.noticias,
+.logout,
+.footer {
+  border: 1px solid black;
+  display: flex; /* Usar flexbox para centrar */
+  align-items: center; /* Centrar verticalmente */
+  justify-content: center; /* Centrar horizontalmente */
 }
 
 /* Resto de los estilos de tu layout */
@@ -27,22 +42,9 @@ margin-top: 7px;
     "navbar info chat" 1fr
     "navbar noticias chat" auto
     "logout footer chat" auto
-    / auto 65% auto;
+    / 272px 65% auto; /* Modifica la definición de la cuadrícula */
   gap: 8px;
 }
 
-/* Agrega bordes a cada celda */
-.logo, .buscador, .user, .navbar, .info, .chat, .noticias, .logout, .footer {
-  border: 1px solid black;
-}
 
-/* Asigna las áreas del grid */
-.logo { grid-area: logo; }
-.buscador { grid-area: buscador; }
-.user { grid-area: user; }
-.navbar { grid-area: navbar; }
-.info { grid-area: info; }
-.chat { grid-area: chat; }
-.noticias { grid-area: noticias; }
-.logout { grid-area: logout; }
-.footer { grid-area: footer; }
+
