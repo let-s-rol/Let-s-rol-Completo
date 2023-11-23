@@ -1,5 +1,3 @@
-¡Por supuesto! Aquí tienes el archivo unificado con los diferentes apartados separados con títulos de nivel 2:
-
 ## Modelo Relacional - Funciones Generales de la Web
 
 ### Tablas:
