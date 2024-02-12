@@ -155,8 +155,6 @@ Tabla: Juegos
 | 2             | D&D            | Dungeons & Dragons es un juego de rol clásico que permite a los jugadores sumergirse en mundos de fantasía y aventura.      |
 | 3             | Modular        | Juego de rol modular que permite a los Masters crear sus propias configuraciones y compartir sus roles con otros jugadores. |
 
-Claro, aquí tienes las tablas con algunos valores por defecto para proporcionar un ejemplo:
-
 ### Tabla de Valores por Defecto
 
 #### Tabla: Usuarios
