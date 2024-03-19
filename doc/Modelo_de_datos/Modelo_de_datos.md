@@ -1,4 +1,4 @@
-Aquí tienes la documentación completa con todos los cambios aplicados:
+
 
 ## Modelo Relacional - Funciones Generales de la Web
 
